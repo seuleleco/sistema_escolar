@@ -1,24 +1,42 @@
-# ✨ Sistema de Login e Cadastro de Notas para Escolas
+<h2>📚 Sistema Escolar</h2>
 
-Este projeto consiste em uma aplicação web com uma página de **login de usuário**. Em breve, será integrada com um sistema de **cadastro de notas para escolas**, permitindo a gestão de informações acadêmicas de estudantes.
+Um sistema intuitivo e em constante evolução para a gestão completa de ambientes escolares. Desenvolvido para simplificar a administração, o controle de alunos e o gerenciamento de notas, este projeto visa otimizar as operações diárias de instituições de ensino.
 
-## Funcionalidades Atuais
+<h2>✨ Funcionalidades Atuais</h2>
 
-- **Página de Login de Usuário**: Interface para autenticação dos usuários, permitindo o acesso ao sistema.
-  
-## Funcionalidades Futuras
+Login com Permissões Especiais: Acesso diferenciado para cada tipo de usuário (administrador, professor, etc.), garantindo segurança e controle sobre as funcionalidades disponíveis.
+Gerenciamento de Alunos: Adição, edição e visualização de informações detalhadas dos estudantes.
+Consulta e Edição de Notas: Ferramentas para professores lançarem e alunos consultarem suas notas de forma prática.
 
-- **Cadastro de Notas**: Sistema para o cadastro e gestão das notas dos alunos, facilitando o acompanhamento acadêmico.
-- **Cadastro de Alunos**: Integração com um sistema de cadastro de alunos para gerenciar suas informações e notas.
-- **Relatórios**: Geração de relatórios de desempenho dos alunos com base nas notas cadastradas.
+<h2>🚀 Em Desenvolvimento</h2>
 
-## 👨‍💻 Tecnologias Utilizadas
+O Sistema Escolar está em ativa evolução! Novas funcionalidades e melhorias são implementadas constantemente para atender às crescentes demandas de uma gestão escolar eficiente. Fique atento às atualizações!
 
-- **Frontend**: HTML, CSS, JavaScript
-  
-##  🖋️ Como Rodar o Projeto Localmente
+<h2>💻 Tecnologias Utilizadas</h2>
 
-1. Execute o arquivo .html ou utilizando liver Server
+Até o momento, o projeto é construído com as seguintes tecnologias web fundamentais:
 
-<h2>🎯 Status do Projeto </h2>
-🚧 Em desenvolvimento... melhorias constantes sendo aplicadas! 🚀
+⚙️ JavaScript
+
+📝 HTML
+
+🖼 CSS
+
+<h3>▶️ Como Executar o Projeto</h3>
+
+Para visualizar e testar o Sistema Escolar em seu ambiente local, siga os passos abaixo:
+
+Clone o repositório:
+<br>
+
+<strong>git clone https://github.com/seuleleco/sistema_escolar</strong>
+<br><br>
+Navegue até o diretório do projeto:
+<br><br>
+<strong>cd login_inicial</strong>
+<br><br><br>
+Utilize o Live Server:
+<br><br>
+Recomenda-se usar a extensão Live Server para VS Code (ou uma ferramenta similar) para abrir o projeto. Basta clicar com o botão direito no arquivo index.html (ou o arquivo principal do seu sistema) e selecionar "Open with Live Server".
+<br><br>
+Isso iniciará um servidor local e abrirá o projeto em seu navegador, permitindo que você veja as funcionalidades em ação.
