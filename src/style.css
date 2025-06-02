@@ -1,0 +1,313 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.backgroundchanger {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(51, 92, 115)
+  );
+  height: 125vh;
+
+  transition: background 0.3s ease;
+}
+
+form {
+  top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+  font-size: 3vh;
+
+  transition: 0.3s ease-in-out;
+}
+
+header {
+  top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  transition: 0.3s ease-in-ou;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: static;
+
+  font-size: 3vh;
+
+  transition: 0.3s ease-in-out;
+}
+
+#reguser {
+  font-size: 2vh;
+
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+#usertipo {
+  border-radius: 12px;
+  padding: 4px 4px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+#regpassword {
+  font-size: 2vh;
+  margin: 20px;
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+#usertext {
+  font-size: 2vh;
+  margin: 20px;
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+#passwordadd {
+  margin: 40px;
+  transition: 0.3s ease-in-out;
+}
+
+#password {
+  font-size: 2vh;
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+#regbtn {
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  height: 6vh;
+  width: 100px;
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+#loginbtn {
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  height: 6vh;
+  width: 100px;
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+#temabtn {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+h1 {
+  transition: 0.3s ease-in-out;
+  font-size: 6vh;
+  font-style: bold;
+}
+
+h2 {
+  transition: 0.3s ease-in-out;
+}
+
+#temastatus {
+  width: 50px;
+  right: auto;
+  left: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 100%;
+  transition: opacity 0.2s ease-in-out;
+}
+#temastatus.fade-out {
+  opacity: 0%;
+}
+
+#loginpagebtn {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+.backgroundchanger {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(51, 92, 115)
+  );
+  height: 125vh;
+
+  transition: background 0.3s ease;
+}
+
+form {
+  top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+  font-size: 3dvh;
+
+  transition: 0.3s ease-in-out;
+}
+header {
+  top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  transition: 0.3s ease-in-ou;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: static;
+
+  font-size: 3vh;
+
+  transition: 0.3s ease-in-out;
+}
+
+#usertext {
+  font-size: 2vh;
+  margin: 20px;
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+#passwordadd {
+  margin: 40px;
+  transition: 0.3s ease-in-out;
+}
+
+#password {
+  font-size: 2vh;
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+#loginbtn {
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  height: 6vh;
+  width: 100px;
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+#temabtn {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+h1 {
+  transition: 0.3s ease-in-out;
+  font-size: 6vh;
+  font-style: bold;
+}
+h2 {
+  transition: 0.3s ease-in-out;
+}
+
+#temastatus {
+  width: 50px;
+  right: auto;
+  left: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 100%;
+  transition: opacity 0.2s ease-in-out;
+}
+#temastatus.fade-out {
+  opacity: 0%;
+}
+
+#cadastrobtn {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #5065dd;
+  outline: none;
+  font-size: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+.cadastroaluno{
+  display: none;
+}
+
