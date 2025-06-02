@@ -29,7 +29,7 @@ Para visualizar e testar o Sistema Escolar em seu ambiente local, siga os passos
 Clone o repositório:
 <br>
 
-<strong>git clone https://github.com/seuleleco/login_inicial.git](https://github.com/seuleleco/sistema_escolar/</strong>
+<strong>git clone https://github.com/seuleleco/sistema_escolar</strong>
 <br><br>
 Navegue até o diretório do projeto:
 <br><br>
