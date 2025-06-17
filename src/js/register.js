@@ -1,3 +1,6 @@
+import sqlite3 from "sqlite3";
+import { open } from "sqlite";
+
 const loginPageBtn = document.getElementById("loginpagebtn");
 
 loginPageBtn.addEventListener("click", function () {
@@ -5,15 +8,20 @@ loginPageBtn.addEventListener("click", function () {
 });
 
 //FUNÇÃO DE CADASTRAR USUÁRIO
+
+const inputUser = document.getElementById("reguser");
+const inputUsertype = document.getElementById("usertipo");
+const inputSenha = document.getElementById("regpassword");
+
+inputUser.addEventListener("blur", function () {
+  inputUser.value = inputUser.value.toLowerCase();
+});
+
 let usuarios = JSON.parse(localStorage.getItem("userbd")) || []; //ARRAY PARA ARMAZENAR USUÁRIOS
 const registerform = document.getElementById("registerform");
 
 registerform.addEventListener("submit", function (event) {
   event.preventDefault();
-
-  const inputUser = document.getElementById("reguser");
-  const inputUsertype = document.getElementById("usertipo");
-  const inputSenha = document.getElementById("regpassword");
 
   /*const user = inputUser.value;
   const senha = inputSenha.value;*/
